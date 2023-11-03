@@ -6,19 +6,19 @@ import java.util.Random;
 public class RadixSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=100; //cantidad de elementos del array
+		int n=1000000; //cantidad de elementos del array
 		int[] array=numerosAleatorios(n); //genera el array
 		
-		System.out.println("Array original");
-		imprimirArray(array);
+		/*System.out.println("Array original");
+		imprimirArray(array);*/
 		
 		long inicio=System.currentTimeMillis();
 		radixSort(array, n);
 		long Final=System.currentTimeMillis();
 		
 		
-		System.out.println("Array ordenado");
-		imprimirArray(array);
+		/*System.out.println("Array ordenado");
+		imprimirArray(array);*/
 		
 		long tiempoTotal= Final-inicio; //calcula el tiempo total de ejecución del algoritmo 
 		System.out.println("Tiempo de  ejecución: "+ tiempoTotal);

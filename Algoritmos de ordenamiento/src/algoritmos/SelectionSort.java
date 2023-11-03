@@ -2,7 +2,7 @@ package algoritmos;
 import java.util.Random;
 public class SelectionSort {
 	public static void main(String[]args) {
-		int n=100000; //cantidad de elementos del array
+		int n=1000000; //cantidad de elementos del array
 		int[] array=numerosAleatorios(n); //genera el array
 		
 		//System.out.println("Array original");

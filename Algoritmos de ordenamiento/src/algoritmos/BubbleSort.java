@@ -1,12 +1,13 @@
 package algoritmos;
 
 import java.util.Random;
+import java.lang.*;
 
 public class BubbleSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=1000; //cantidad de elementos del array
+		int n=1000000; //cantidad de elementos del array
 		int[] array=numerosAleatorios(n); //genera el array
 		
 		/*System.out.println("Array original");
